@@ -1,0 +1,3 @@
+<?
+	$NOMBRE_SITIO="SISCOPHP";
+?>

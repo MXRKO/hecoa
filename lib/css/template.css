@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+.anchoBase{
+	width:800px;
+}
+
+.centrar{
+	margin:0 auto 0 auto;
+}
+
+.contenedor{
+	background-color:#F0F0F1;
+}
+
+.mayusculas{
+	text-transform:uppercase;	
+}
+
+.opciones{
+}
+
+ul.menu{
+	width:800px;
+	height:35px;
+	background-color:#930;
+	padding:0;
+}
+
+ul.menu > li{
+	background-color:#999;
+	width:191px;
+	padding:10px 0 10px 0;
+	margin-right:5px;
+	float:left;
+}
+
+ul.menu > li > a{
+	background-color:#900;
+	padding:10px 35px 10px 35px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#FFF;
+	height:35px;
+	text-decoration:none;
+}
+
+.limpiar{
+	clear:both;
+}
+
+.contenedor .marco_encabezado{
+	background-color:#CFCFCF;
+	padding:11px;
+	border-bottom:1px #676767 dotted;
+	margin-bottom:25px;
+}
+
+.contenedor .marco_fondo{
+	background-color:#E3E3E3;
+	padding:15px;
+	padding-bottom:30px;
+}
+
+.contenedor .marco_fondo .leyenda{
+	background-color:#CFCFCF;
+	width:650px;
+	margin:0 auto 0 auto;
+	padding:8px;
+}
+
+.contenedor .marco_fondo .leyenda p{
+	color:#676767;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.contenedor .marco_encabezado > h3{
+	color:#676767;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	line-height:18px;
+	text-align:center;
+}
+
+.tabla_formulario p{
+	color:#676767;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:right;
+	padding-right:10px;
+}
+
+p.der{
+	text-align:right;
+}
+
+table p{
+	color:#676767;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:14px;
+	padding-right:10px;
+}
+
+.tabla_formulario input[type=text], .tabla_formulario input[type=password]{
+	padding:2px;
+	border:1px #999 solid;
+}
+
+.tabla_formulario input[type=text]:focus, .tabla_formulario input[type=password]:focus{
+	border:1px #09C solid;
+}
+
+.tabla_formulario input[type=button]{
+	padding:4px 12px 4px 12px;
+}
+
+fieldset{
+	border:1px #9C9C9C solid;
+	padding:10px;
+}
+
+fieldset legend{
+	color:#676767;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	line-height:15px;
+	font-weight:bold;
+}
+
+.marco40{
+	margin-left:40px;
+	margin-right:40px;
+}
+
+table input[type=text], table input[type=password]{
+	padding:2px;
+	border:1px #999 solid;
+	font-size:13px;
+}
+
+table input[type=text]:focus, table input[type=password]:focus{
+	border:1px #09C solid;
+}
+
+form label.error {
+	color: red;
+	font-weight: normal;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding-left: 4px;
+	vertical-align:middle;
+}
