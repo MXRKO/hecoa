@@ -17,7 +17,9 @@ body{
 	width:890px;
 	margin:0 auto 0 auto;
 	min-height:140px;
-	background-color:#036;
+	background-image:url(../../image/bg_content.png);
+	background-repeat:repeat-y;
+	padding:0 5px 0 5px;
 }
 
 .menu{
@@ -27,9 +29,9 @@ body{
 }
 
 	.menu ul.principal{
-		background-image:url(../../image/bg_menu.jpg);
+		background-image:url(../../image/bg_menu.png);
 		background-repeat:repeat-x;
-		background-position:bottom;
+		background-position:top;
 		height:40px;
 		list-style:none;
 		width:890px;
@@ -39,12 +41,22 @@ body{
 	.menu ul.principal li{
 		float:left;
 		padding:12px 0 12px 0;
+		color:#FFF;
+		position:relative; 
 	}
 	
 	.menu ul.principal li:hover{
 		background-image:url(../../image/bg_menu_over.png);
 		background-repeat:repeat-x;
 		background-position:top;
+	}
+	
+	.menu ul.principal li:hover a{
+		color:#000;
+	}
+	
+	.menu ul.principal li.hover a{
+		color:#000;
 	}
 	
 	.menu ul.principal li.hover{
@@ -60,6 +72,37 @@ body{
 		padding:12px 15px 12px 15px;
 	}
 
+	ul.principal ul{
+		position:absolute; /* Esta posición es relativa al <li> que contiene a este <ul> */
+		top:40px;
+		display:none;
+		list-style:none;
+		background-color:#036;
+		width:170px;
+		z-index:2;
+	}
+
+	ul.principal li:hover > ul{
+		display:block;
+	}
+	
+	ul.principal li:hover > ul li{
+		padding:0;
+		width:170px;
+	}
+	ul.principal li:hover > ul a{
+		display:block;
+		padding:10px 0 10px 0;
+		background-color:#FFF;
+		border:1px #000 solid;
+		border-top:0;
+		color:#FFF;
+	}
+	
+	ul.principal li:hover > ul a:hover{
+		background-color:#CCC;
+		color:#000;
+	}
 .nav{
 	background-image:url(../../image/bg_nav.png);
 	background-position:center bottom;
