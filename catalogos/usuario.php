@@ -3,6 +3,7 @@
 	include("../lib/php/settings.php");
 	include("../lib/php/conexion.php");
 	include("../lib/php/class/classUsuario.php");
+	$menu_selected=2;
 	if(trim($_GET["idu"])!=""){
 		$idu=$_GET["idu"];
 	}else{
@@ -26,13 +27,9 @@
 <input type="hidden" name="respuesta" id="respuesta"  />
 <div class="header">
 </div>
-<div class="menu centrar">
-	<ul class="principal">
-    	<li><a href="#">Techos financieros</a></li>
-        <li class="hover"><a href="#">Catalogos</a></li>
-    </ul>	
-    <div class="clr"></div>
-</div>
+<?
+	include("../view/menu.php");
+?>
 <div class="nav centrar">
 	<p><a href="usuarios.php">Inicio</a> &gt; <a href="usuarios.php">Usuarios</a> &gt; Modificar</p>
 </div>

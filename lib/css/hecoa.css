@@ -5,6 +5,18 @@ body{
 	font-family:Arial, Helvetica, sans-serif;
 }
 
+.fs12{
+	font-size:12px;
+}
+
+.tGeneral tr td{
+	padding:5px;
+}
+
+.tGeneral tr th{
+	padding:8px 4px 0 4px;
+}
+
 .anchoBase{
 	width:900px;
 }
@@ -52,17 +64,18 @@ body{
 	}
 	
 	.menu ul.principal li:hover a{
-		color:#000;
+		color:#D1EAF8;
 	}
 	
 	.menu ul.principal li.hover a{
-		color:#000;
+		color:#FFF;
 	}
 	
 	.menu ul.principal li.hover{
-		background-image:url(../../image/bg_menu_over.png);
+		/*background-image:url(../../image/bg_menu_over.png);
 		background-repeat:repeat-x;
-		background-position:top;
+		background-position:top;*/
+		background-color:#070707;
 	}
 	
 	.menu ul.principal li a{
@@ -88,20 +101,27 @@ body{
 	
 	ul.principal li:hover > ul li{
 		padding:0;
-		width:170px;
+		width:190px;
 	}
+	
+	ul.principal li:hover > ul li:first-child a{
+		border-top:0;
+	}
+	
 	ul.principal li:hover > ul a{
 		display:block;
-		padding:10px 0 10px 0;
-		background-color:#FFF;
-		border:1px #000 solid;
-		border-top:0;
+		padding:9px;
+		background-color:#033A52;
+		border:1px #0B0C0D solid;
 		color:#FFF;
+		border-top:1px #05638B solid;
+		line-height:19px;
+		font-size:12px;
 	}
 	
 	ul.principal li:hover > ul a:hover{
-		background-color:#CCC;
-		color:#000;
+		background-color:#011721;
+		color:#FFF;
 	}
 .nav{
 	background-image:url(../../image/bg_nav.png);

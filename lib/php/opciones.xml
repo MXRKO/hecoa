@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>	
+	<item>
+		<nombre>Obras/Acciones</nombre>
+		<url>#</url>
+		<submenu>
+			<item>
+				<nombre>Techos Financieros</nombre>
+				<url>#</url>
+			</item>
+			<item>
+				<nombre>Captura Obra/Acción</nombre>
+				<url>#</url>
+			</item>
+			<item>
+				<nombre>Lista Obras/Acciones</nombre>
+				<url>#</url>
+			</item>	
+		</submenu>
+	</item>
+</menu>

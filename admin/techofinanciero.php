@@ -2,32 +2,31 @@
 	session_start();
 	include("../lib/php/settings.php");
 	include("../lib/php/conexion.php");
+	$menu_selected=0;
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Techos Financieros</title>
-<link href="../lib/css/reset.css" rel="stylesheet" type="text/css" />
-<link href="../lib/css/template.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../lib/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="../lib/css/hecoa.css?3" />
+<link rel="stylesheet" type="text/css" href="../lib/css/themes/smoothness/jquery-ui-1.8.4.custom.css"/>
+<link rel="stylesheet" type="text/css" href="../lib/css/demo_table_jui.css"/>
 </head>
 <body>
 <form id="Datos" name="Datos">
 <input type="hidden" name="respuesta" id="respuesta"  />
-<div class="superior anchoBase centrar" >
-	<img src="../image/header.png" height="192" width="800" />
+<div class="header">
 </div>
-<div class="centro anchoBase centrar">
-	<div class="opciones">
-    	<ul class="menu">
-            <li><a href="#">Techos Financieros</a></li>
-            <li><a href="#">Techos Financieros</a></li>
-            <li><a href="#">Techos Financieros</a></li>
-            <li><a href="#">Techos Financieros</a></li>
-        </ul>
-        <div class="limpiar"></div>
-    </div>
-	<div class="contenedor">
+<?
+	include("../view/menu.php");
+?>
+<div class="nav centrar">
+	<p><a href="usuarios.php">Inicio</a> &gt; <a href="usuarios.php">Usuarios</a> &gt; Modificar</p>
+</div>
+<div class="content centrar">
+<!-- **********************************************  CÓDIGO ************************************************* -->     
    		<div class="marco_encabezado">
    		  <h3>Techos Financieros</h3></div>
         <div class="marco40">
@@ -275,15 +274,12 @@
             </td>
           </tr>
         </table>
-        </div>
-        <div class="marco_fondo">
-       	  <div class="leyenda"><p>Gracias por confiar en el gobierno de Morelos</p></div>
-        </div>
-    </div>
+<!-- **********************************************  TERMINA CÓDIGO ************************************************* -->     
 </div>
 </form>
 </body>
 <script type="text/javascript" language="javascript" src="../lib/js/jquery-1.7.min.js"></script>
 <script type="text/javascript" language="javascript" src="../lib/js/autoNumeric-1.7.5.js"></script>
-<script src="techofinanciero.js"></script>
+<script type="text/javascript" language="javascript" src="../lib/js/jquery.dataTables.js"></script>
+<script src="usuarios.js"></script>
 </html>

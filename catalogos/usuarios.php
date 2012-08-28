@@ -3,6 +3,7 @@
 	include("../lib/php/settings.php");
 	include("../lib/php/conexion.php");
 	include("../lib/php/class/classUsuario.php");
+	$menu_selected=2;
 	if(trim($_GET["t"])!=""){
 		$tipo=$_GET["t"];
 	}else{
@@ -15,7 +16,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Techos Financieros</title>
 <link rel="stylesheet" type="text/css" href="../lib/css/reset.css" />
-<link rel="stylesheet" type="text/css" href="../lib/css/hecoa.css" />
+<link rel="stylesheet" type="text/css" href="../lib/css/hecoa.css?v=1" />
 <link rel="stylesheet" type="text/css" href="../lib/css/themes/smoothness/jquery-ui-1.8.4.custom.css"/>
 <link rel="stylesheet" type="text/css" href="../lib/css/demo_table_jui.css"/>
 </head>
@@ -24,57 +25,15 @@
 <input type="hidden" name="respuesta" id="respuesta"  />
 <div class="header">
 </div>
-<div class="menu centrar">
-	<ul class="principal">
-    	<li><a href="#">Obras/Acciones</a>
-        	<ul>
-            	<li><a href="#">Techos Financieros</a></li>
-                <li><a href="#">Captura Obra/Acción</a></li>
-                <li><a href="#">Lista Obras/Acciones</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Reportes</a>
-        	<ul>
-            	<li><a href="#">Aprobaciones y Modificaciones Presupuestales</a></li>
-                <li><a href="#">Reportes trimestrales y cierres de ejercicio</a></li>
-                <li><a href="#">Reportes para el formato único del portal aplicativo (SHCP)</a></li>
-                <li><a href="#">Resumen ejecutivo</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Catálogos</a>
-        	<ul>
-            	<li><a href="#">Conceptos</a></li>
-                <li><a href="#">Consejos</a></li>
-                <li><a href="#">Contratistas</a></li>
-                <li><a href="#">Dependencias</a></li>
-                <li><a href="#">Descripciones</a></li>
-                <li><a href="#">Proveedores</a></li>
-                <li><a href="#">Rubros</a></li>
-                <li><a href="#">Unidades de medida</a></li>
-                <li><a href="#">Usuarios</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Apertura Programatica</a>
-        	<ul>
-            	<li><a href="#">Programas</a></li>
-                <li><a href="#">Orden programas</a></li>
-                <li><a href="#">Subprogramas</a></li>
-                <li><a href="#">Tipos</a></li>
-                <li><a href="#">Rubro gasto</a></li>
-                <li><a href="#">Destino gasto</a></li>                                
-            </ul>
-        </li>
-        <li><a href="#">Salir</a>
-        </li>
-    </ul>	
-    <div class="clr"></div>
-</div>
+<?
+	include("../view/menu.php");
+?>
 <div class="nav centrar">
 	<p><a href="usuarios.php">Inicio</a> &gt; Usuarios</p>
 </div>
 <div class="content centrar">
 <!-- **********************************************  CÓDIGO ************************************************* -->
-  <table id="tUsuarios" width="100%" border="0">
+  <table id="tUsuarios" class="tGeneral fs12" width="100%" border="0">
     <thead>
     <tr>
       <th>&nbsp;</th>
