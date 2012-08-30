@@ -23,13 +23,11 @@
 	include("../view/menu.php");
 ?>
 <div class="nav centrar">
-	<p><a href="usuarios.php">Inicio</a> &gt; <a href="usuarios.php">Usuarios</a> &gt; Modificar</p>
+	<p><a href="../admin/usuarios.php">Obras/Acciones</a> &gt; Techos Financieros</p>
 </div>
 <div class="content centrar">
 <!-- **********************************************  CÓDIGO ************************************************* -->     
-   		<div class="marco_encabezado">
-   		  <h3>Techos Financieros</h3></div>
-        <div class="marco40">
+   		<h3>Techos Financieros</h3>
         <table width="100%" border="0">
           <tr>
             <td width="20%"><p class="der">Municipio</p></td>
@@ -77,21 +75,21 @@
           <tr>
             <td colspan="2">
            	  <fieldset>
-               	<legend>Techo Financiero F.I.S.M.:</legend>
+               	<legend>Techo Financiero F.I.S.M.               	</legend>
                	<table width="100%" border="0">
-                  <tr>
+              <tr>
                         <td>&nbsp;</td>
                         <td><p>Techo Financiero</p></td>
                         <td><p>Aprobado</p></td>
                         <td><p>Saldo</p></td>
                       </tr>
                       <tr>
-                        <td width="19%"><p class="der">F.I.S.M.</p></td>
+                        <td width="23%"><p class="der">F.I.S.M.</p></td>
                         <td width="22%"><label>
                           <input type="text" name="txtFISM_00" id="txtFISM_00" />
                         </label></td>
-                        <td width="22%"><input type="text" name="txtFISM_01" id="txtFISM_01" /></td>
-                        <td width="37%"><input type="text" name="txtFISM_02" id="txtFISM_02" /></td>
+                        <td width="21%"><input type="text" name="txtFISM_01" id="txtFISM_01" /></td>
+                        <td width="34%"><input type="text" name="txtFISM_02" id="txtFISM_02" /></td>
                       </tr>
                       <tr>
                         <td><p class="der">MUNICIPAL</p></td>
@@ -127,9 +125,9 @@
           <tr>
             <td colspan="2">
             <fieldset>
-               	<legend>Techo Financiero F.A.F.M.:</legend>
+               	<legend>Techo Financiero F.A.F.M.               	</legend>
                	<table width="100%" border="0">
-                  <tr>
+              <tr>
                         <td>&nbsp;</td>
                         <td><p>Techo Financiero</p></td>
                         <td><p>Aprobado</p></td>
@@ -177,9 +175,9 @@
           <tr>
             <td colspan="2">
             <fieldset>
-               	<legend>Techo Financiero F.I.S.M.R.:</legend>
+               	<legend>Techo Financiero F.I.S.M.R.</legend>
                	<table width="100%" border="0">
-                  <tr>
+              <tr>
                         <td>&nbsp;</td>
                         <td><p>Techo Financiero</p></td>
                         <td><p>Aprobado</p></td>
@@ -227,9 +225,9 @@
           <tr>
             <td colspan="2">
             <fieldset>
-               	<legend>Techo Financiero F.A.F.M.R.:</legend>
+               	<legend>Techo Financiero F.A.F.M.R.               	</legend>
                	<table width="100%" border="0">
-                  <tr>
+              <tr>
                         <td>&nbsp;</td>
                         <td><p>Techo Financiero</p></td>
                         <td><p>Aprobado</p></td>
@@ -281,5 +279,5 @@
 <script type="text/javascript" language="javascript" src="../lib/js/jquery-1.7.min.js"></script>
 <script type="text/javascript" language="javascript" src="../lib/js/autoNumeric-1.7.5.js"></script>
 <script type="text/javascript" language="javascript" src="../lib/js/jquery.dataTables.js"></script>
-<script src="usuarios.js"></script>
+<script src="../admin/usuarios.js"></script>
 </html>

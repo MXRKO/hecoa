@@ -2,8 +2,8 @@
 	<ul class="principal">
     	<li <?=($menu_selected==0)?"class='hover'":"";?>><a href="#">Obras/Acciones</a>
         	<ul>
-            	<li><a href="../admin/techofinanciero.php">Techos Financieros</a></li>
-                <li><a href="#">Captura Obra/Acción</a></li>
+            	<li><a href="../obras/techofinanciero.php">Techos Financieros</a></li>
+                <li><a href="../obras/capturaobra.php">Captura Obra/Acción</a></li>
                 <li><a href="#">Lista Obras/Acciones</a></li>
             </ul>
         </li>
