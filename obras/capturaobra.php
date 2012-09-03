@@ -85,14 +85,85 @@
                                   </tr>
                                   <tr>
                                     <td><p>*Asentamiento</p></td>
-                                    <td><input type="text" name="textfield5" id="textfield5" /></td>
+                                    <td><select name="select4" id="select4">
+                                    </select></td>
                                   </tr>
                             </table>
                             </fieldset>
                         </td>
-                        <td width="56%">&nbsp;</td>
+                        <td width="56%">
+                        <fieldset>
+                       	  <legend>Financiamiento</legend>
+                       	  <table width="100%" border="0">
+                              <tr>
+                                <td width="38%">Financiamiento</td>
+                                <td width="62%"><label>
+                                  <select name="select2" id="select2">
+                                  </select>
+                                </label></td>
+                              </tr>
+                              <tr>
+                                <td>Fondo</td>
+                                <td><select name="select3" id="select3">
+                                </select></td>
+                              </tr>
+                            </table>
+                        </fieldset>
+                        </td>
                       </tr>
                     </table></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td><fieldset>
+                    	<legend>Apertura Programatica</legend>
+                    	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td width="14%"><p>Programa</p></td>
+                            <td width="86%"><select name="select5" id="select5">
+                            </select></td>
+                          </tr>
+                          <tr>
+                            <td><p>Subprograma</p></td>
+                            <td><select name="select6" id="select6">
+                            </select></td>
+                          </tr>
+                          <tr>
+                            <td><p>Tipo</p></td>
+                            <td><select name="select7" id="select7">
+                            </select></td>
+                          </tr>
+                      </table>
+                    </fieldset></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>
+                    <fieldset>
+                    <legend>Clasificación del destino del gasto (Pash)</legend>
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="14%"><p>Tipo de gasto</p></td>
+                        <td width="86%"><select name="select8" id="select8">
+                        </select></td>
+                      </tr>
+                      <tr>
+                        <td><p>Rubro gasto</p></td>
+                        <td><select name="select8" id="select9">
+                        </select></td>
+                      </tr>
+                      <tr>
+                        <td><p>Destino gasto</p></td>
+                        <td><select name="select8" id="select10">
+                        </select></td>
+                      </tr>
+                    </table>
+                    </fieldset>
+                    </td>
                   </tr>
                   <tr>
                     <td>&nbsp;</td>
