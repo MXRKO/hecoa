@@ -188,7 +188,7 @@ table p{
 
 fieldset{
 	border:1px #999 solid;
-	padding:15px;
+	padding:10px;
 }
 
 fieldset legend{
@@ -196,6 +196,7 @@ fieldset legend{
 	font-size:14px;
 	font-style:normal;
 	font-weight:bold;
+	padding:0 4px 0 4px;
 }
 
 ul.subopciones{
@@ -251,4 +252,12 @@ ul.subopciones li.seleccionado a{
 	padding:25px 20px;
 	border:1px #999 solid;
 	border-top:0;
+}
+
+table.normal tr td{
+	padding:2px 4px 2px 4px;
+}
+
+table.normal tr td p{
+	font-size:14px;
 }

@@ -38,16 +38,18 @@
             </ul>
             <div class="clr"></div>
             <div id="panelDatos">
-                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <table class="normal" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tr>
                     <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                       <tr>
-                        <td width="26%"><p>*Número de obra o acción</p></td>
-                        <td width="74%"><label>
+                        <td width="2%">*</td>
+                        <td width="23%"><p>Número de obra o acción</p></td>
+                        <td width="75%"><label>
                           <input type="text" name="textfield" id="textfield" />
                         </label></td>
                       </tr>
                       <tr>
+                        <td>&nbsp;</td>
                         <td><p>Descripción</p></td>
                         <td><label>
                           <select name="select" id="select">
@@ -55,6 +57,7 @@
                         </label></td>
                       </tr>
                       <tr>
+                        <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td><label>
                           <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
@@ -65,45 +68,52 @@
                   <tr>
                     <td><table width="100%" border="0">
                       <tr>
-                        <td width="44%">
+                        <td width="50%">
                           <fieldset>
                             <legend>Ubicación</legend>
                             <table width="100%" border="0">
                                 <tr>
-                                    <td width="32%"><p>*Municipio</p></td>
-                                    <td width="68%"><label>
+                                  <td width="4%">*</td>
+                                    <td width="32%"><p>Municipio</p></td>
+                                    <td width="64%"><label>
                                       <input type="text" name="textfield2" id="textfield2" />
                                     </label></td>
                               </tr>
                                   <tr>
-                                    <td><p>*Region</p></td>
+                                    <td>*</td>
+                                    <td><p>Region</p></td>
                                     <td><input type="text" name="textfield3" id="textfield3" /></td>
                                   </tr>
                                   <tr>
-                                    <td><p>*Localidad</p></td>
+                                    <td>*</td>
+                                    <td><p>Localidad</p></td>
                                     <td><input type="text" name="textfield4" id="textfield4" /></td>
                                   </tr>
                                   <tr>
-                                    <td><p>*Asentamiento</p></td>
+                                    <td>*</td>
+                                    <td><p>Asentamiento</p></td>
                                     <td><select name="select4" id="select4">
                                     </select></td>
                                   </tr>
                             </table>
                             </fieldset>
                         </td>
-                        <td width="56%">
+                        <td width="2%"></td>
+                        <td width="48%">
                         <fieldset>
                        	  <legend>Financiamiento</legend>
                        	  <table width="100%" border="0">
                               <tr>
-                                <td width="38%">Financiamiento</td>
-                                <td width="62%"><label>
+                                <td width="4%">*</td>
+                                <td width="29%"><p>Financiamiento</p></td>
+                                <td width="67%"><label>
                                   <select name="select2" id="select2">
                                   </select>
                                 </label></td>
                               </tr>
                               <tr>
-                                <td>Fondo</td>
+                                <td>*</td>
+                                <td><p>Fondo</p></td>
                                 <td><select name="select3" id="select3">
                                 </select></td>
                               </tr>
@@ -121,16 +131,19 @@
                     	<legend>Apertura Programatica</legend>
                     	<table width="100%" border="0" cellpadding="0" cellspacing="0">
                           <tr>
+                            <td width="2%">*</td>
                             <td width="14%"><p>Programa</p></td>
-                            <td width="86%"><select name="select5" id="select5">
+                            <td width="84%"><select name="select5" id="select5">
                             </select></td>
                           </tr>
                           <tr>
+                            <td>&nbsp;</td>
                             <td><p>Subprograma</p></td>
                             <td><select name="select6" id="select6">
                             </select></td>
                           </tr>
                           <tr>
+                            <td>&nbsp;</td>
                             <td><p>Tipo</p></td>
                             <td><select name="select7" id="select7">
                             </select></td>
@@ -167,6 +180,41 @@
                   </tr>
                   <tr>
                     <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td><table width="100%" border="0">
+                      <tr>
+                        <td width="52%"><fieldset>
+                        	<legend>Situación y Ejecución</legend>
+                            lkñlk
+                            <table width="100%" border="0">
+                              <tr>
+                                <td width="4%">*</td>
+                                <td width="27%"><p>Situación</p></td>
+                                <td width="69%"><select name="select9" id="select11">
+                                </select></td>
+                              </tr>
+                              <tr>
+                                <td>*</td>
+                                <td><p>Ejecución</p></td>
+                                <td><select name="select10" id="select12">
+                                </select></td>
+                              </tr>
+                              <tr>
+                                <td>*</td>
+                                <td><p>Obra/Acción</p></td>
+                                <td><select name="select11" id="select13">
+                                </select></td>
+                              </tr>
+                            </table>
+                        </fieldset></td>
+                        <td width="2%">&nbsp;</td>
+                        <td width="46%"><fieldset>
+                        	<legend>Anexo de aprobación</legend>
+                            ñlkñkñl
+                        </fieldset></td>
+                      </tr>
+                    </table></td>
                   </tr>
                 </table>
 			</div>
