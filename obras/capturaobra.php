@@ -76,23 +76,23 @@
                                   <td width="4%">*</td>
                                     <td width="32%"><p>Municipio</p></td>
                                     <td width="64%"><label>
-                                      <input type="text" name="textfield2" id="textfield2" />
-                                    </label></td>
+                                      <input type="text" name="txtMunicipio" id="txtMunicipio" />
+                                  </label></td>
                               </tr>
                                   <tr>
                                     <td>*</td>
                                     <td><p>Region</p></td>
-                                    <td><input type="text" name="textfield3" id="textfield3" /></td>
+                                    <td><input type="text" name="txtRegion" id="txtRegion" /></td>
                                   </tr>
                                   <tr>
                                     <td>*</td>
                                     <td><p>Localidad</p></td>
-                                    <td><input type="text" name="textfield4" id="textfield4" /></td>
+                                    <td><input type="text" name="txtLocalidad" id="txtLocalidad" /></td>
                                   </tr>
                                   <tr>
                                     <td>*</td>
                                     <td><p>Asentamiento</p></td>
-                                    <td><select name="select4" id="select4">
+                                    <td><select name="slAsentamiento" id="slAsentamiento">
                                     </select></td>
                                   </tr>
                             </table>
@@ -107,14 +107,14 @@
                                 <td width="4%">*</td>
                                 <td width="29%"><p>Financiamiento</p></td>
                                 <td width="67%"><label>
-                                  <select name="select2" id="select2">
+                                  <select name="slFinanciamiento" id="slFinanciamiento">
                                   </select>
                                 </label></td>
                               </tr>
                               <tr>
                                 <td>*</td>
                                 <td><p>Fondo</p></td>
-                                <td><select name="select3" id="select3">
+                                <td><select name="slFondo" id="slFondo">
                                 </select></td>
                               </tr>
                             </table>
@@ -133,19 +133,19 @@
                           <tr>
                             <td width="2%">*</td>
                             <td width="14%"><p>Programa</p></td>
-                            <td width="84%"><select name="select5" id="select5">
+                            <td width="84%"><select name="slPrograma" id="slPrograma">
                             </select></td>
                           </tr>
                           <tr>
                             <td>&nbsp;</td>
                             <td><p>Subprograma</p></td>
-                            <td><select name="select6" id="select6">
+                            <td><select name="slSubprograma" id="slSubprograma">
                             </select></td>
                           </tr>
                           <tr>
                             <td>&nbsp;</td>
                             <td><p>Tipo</p></td>
-                            <td><select name="select7" id="select7">
+                            <td><select name="slTipo" id="slTipo">
                             </select></td>
                           </tr>
                       </table>
@@ -160,18 +160,18 @@
                     <legend>Clasificación del destino del gasto (Pash)</legend>
                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
                       <tr>
-                        <td width="14%"><p>Tipo de gasto</p></td>
-                        <td width="86%"><select name="select8" id="select8">
+                        <td width="15%"><p>Tipo de gasto</p></td>
+                        <td width="85%"><select name="slTipoGasto" id="slTipoGasto">
                         </select></td>
                       </tr>
                       <tr>
                         <td><p>Rubro gasto</p></td>
-                        <td><select name="select8" id="select9">
+                        <td><select name="slRubroGasto" id="select9">
                         </select></td>
                       </tr>
                       <tr>
                         <td><p>Destino gasto</p></td>
-                        <td><select name="select8" id="select10">
+                        <td><select name="slDestinoGasto" id="select10">
                         </select></td>
                       </tr>
                     </table>
@@ -186,24 +186,23 @@
                       <tr>
                         <td width="52%"><fieldset>
                         	<legend>Situación y Ejecución</legend>
-                            lkñlk
-                            <table width="100%" border="0">
+                        	<table width="100%" border="0">
                               <tr>
                                 <td width="4%">*</td>
                                 <td width="27%"><p>Situación</p></td>
-                                <td width="69%"><select name="select9" id="select11">
+                                <td width="69%"><select name="slSituacion" id="select11">
                                 </select></td>
                               </tr>
                               <tr>
                                 <td>*</td>
                                 <td><p>Ejecución</p></td>
-                                <td><select name="select10" id="select12">
+                                <td><select name="slEjecucion" id="select12">
                                 </select></td>
                               </tr>
                               <tr>
                                 <td>*</td>
                                 <td><p>Obra/Acción</p></td>
-                                <td><select name="select11" id="select13">
+                                <td><select name="slObraAccion" id="select13">
                                 </select></td>
                               </tr>
                             </table>
@@ -211,7 +210,20 @@
                         <td width="2%">&nbsp;</td>
                         <td width="46%"><fieldset>
                         	<legend>Anexo de aprobación</legend>
-                            ñlkñkñl
+                        	<table width="100%" border="0">
+                              <tr>
+                                <td width="5%">*</td>
+                                <td width="22%"><p>Anexo</p></td>
+                                <td width="73%"><label>
+                                  <input type="text" name="textfield2" id="textfield2" />
+                                </label></td>
+                              </tr>
+                              <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                              </tr>
+                          </table>
                         </fieldset></td>
                       </tr>
                     </table></td>
