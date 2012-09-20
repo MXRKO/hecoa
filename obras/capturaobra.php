@@ -133,7 +133,17 @@
                           <tr>
                             <td width="2%">*</td>
                             <td width="14%"><p>Programa</p></td>
-                            <td width="84%"><select name="slPrograma" id="slPrograma">
+                            <td width="84%">
+                            <select name="slPrograma" id="slPrograma">
+                            	<option value="0">--</option>
+								<?
+                            	$sql_programas=mysql_query("SELECT*FROM c_programas");
+								while($programas=mysql_fetch_array($sql_programas)){
+									?>
+									<option value="<?=$programas["CVE_PROG"]?>"><?=$programas["DESCRIPCION"]?></option>
+									<?
+								}
+								?>
                             </select></td>
                           </tr>
                           <tr>
@@ -238,5 +248,5 @@
 <script type="text/javascript" language="javascript" src="../lib/js/jquery-1.7.min.js"></script>
 <script type="text/javascript" language="javascript" src="../lib/js/autoNumeric-1.7.5.js"></script>
 <script type="text/javascript" language="javascript" src="../lib/js/jquery.dataTables.js"></script>
-<script src="../admin/usuarios.js"></script>
+<script src="capturaobra.js"></script>
 </html>
