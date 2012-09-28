@@ -37,24 +37,24 @@
                 <li><a href="#">Paso 3 de 3</a></li>	
             </ul>
             <div class="clr"></div>
-            <div id="panelDatos">
+            <div id="panel1" class="panelDatos">
                 <table class="normal" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tr>
                     <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <td width="2%">*</td>
-                        <td width="23%"><p>Número de obra o acción</p></td>
-                        <td width="75%"><label>
+                        <td width="23%"><label>Número de obra o acción</label></td>
+                        <td width="75%">
                           <input type="text" name="textfield" id="textfield" />
-                        </label></td>
+                        </td>
                       </tr>
                       <tr>
                         <td>&nbsp;</td>
-                        <td><p>Descripción</p></td>
-                        <td><label>
+                        <td><label>Descripción</label></td>
+                        <td>
                           <select name="select" id="select">
                           </select>
-                        </label></td>
+                        </td>
                       </tr>
                       <tr>
                         <td>&nbsp;</td>
@@ -69,34 +69,36 @@
                     <td><table width="100%" border="0">
                       <tr>
                         <td width="50%">
-                          <fieldset>
-                            <legend>Ubicación</legend>
-                            <table width="100%" border="0">
-                                <tr>
-                                  <td width="4%">*</td>
-                                    <td width="32%"><p>Municipio</p></td>
-                                    <td width="64%"><label>
-                                      <input type="text" name="txtMunicipio" id="txtMunicipio" />
-                                  </label></td>
-                              </tr>
+                          <div class="marcoFS">
+                            <fieldset>
+                              <legend>Ubicación</legend>
+                              <table width="100%" border="0">
                                   <tr>
-                                    <td>*</td>
-                                    <td><p>Region</p></td>
-                                    <td><input type="text" name="txtRegion" id="txtRegion" /></td>
-                                  </tr>
-                                  <tr>
-                                    <td>*</td>
-                                    <td><p>Localidad</p></td>
-                                    <td><input type="text" name="txtLocalidad" id="txtLocalidad" /></td>
-                                  </tr>
-                                  <tr>
-                                    <td>*</td>
-                                    <td><p>Asentamiento</p></td>
-                                    <td><select name="slAsentamiento" id="slAsentamiento">
-                                    </select></td>
-                                  </tr>
-                            </table>
+                                    <td width="4%">*</td>
+                                      <td width="32%"><label>Municipio</label></td>
+                                      <td width="64%">
+                                        <input type="text" name="txtMunicipio" id="txtMunicipio" />
+                                      </td>
+                                </tr>
+                                    <tr>
+                                      <td>*</td>
+                                      <td><label>Region</label></td>
+                                      <td><input type="text" name="txtRegion" id="txtRegion" /></td>
+                                    </tr>
+                                    <tr>
+                                      <td>*</td>
+                                      <td><label>Localidad</label></td>
+                                      <td><input type="text" name="txtLocalidad" id="txtLocalidad" /></td>
+                                    </tr>
+                                    <tr>
+                                      <td>*</td>
+                                      <td><label>Asentamiento</label></td>
+                                      <td><select name="slAsentamiento" id="slAsentamiento">
+                                      </select></td>
+                                    </tr>
+                              </table>
                             </fieldset>
+                          </div>
                         </td>
                         <td width="2%"></td>
                         <td width="48%">
@@ -105,15 +107,15 @@
                        	  <table width="100%" border="0">
                               <tr>
                                 <td width="4%">*</td>
-                                <td width="29%"><p>Financiamiento</p></td>
-                                <td width="67%"><label>
+                                <td width="29%"><label>Financiamiento</label></td>
+                                <td width="67%">
                                   <select name="slFinanciamiento" id="slFinanciamiento">
                                   </select>
-                                </label></td>
+                                </td>
                               </tr>
                               <tr>
                                 <td>*</td>
-                                <td><p>Fondo</p></td>
+                                <td><label>Fondo</label></td>
                                 <td><select name="slFondo" id="slFondo">
                                 </select></td>
                               </tr>
@@ -132,7 +134,7 @@
                     	<table width="100%" border="0" cellpadding="0" cellspacing="0">
                           <tr>
                             <td width="2%">*</td>
-                            <td width="14%"><p>Programa</p></td>
+                            <td width="14%"><label>Programa</label></td>
                             <td width="84%">
                             <select name="slPrograma" id="slPrograma">
                             	<option value="0">--</option>
@@ -148,13 +150,13 @@
                           </tr>
                           <tr>
                             <td>&nbsp;</td>
-                            <td><p>Subprograma</p></td>
+                            <td><label>Subprograma</label></td>
                             <td><select name="slSubprograma" id="slSubprograma">
                             </select></td>
                           </tr>
                           <tr>
                             <td>&nbsp;</td>
-                            <td><p>Tipo</p></td>
+                            <td><label>Tipo</label></td>
                             <td><select name="slTipo" id="slTipo">
                             </select></td>
                           </tr>
@@ -170,17 +172,17 @@
                     <legend>Clasificación del destino del gasto (Pash)</legend>
                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
                       <tr>
-                        <td width="15%"><p>Tipo de gasto</p></td>
+                        <td width="15%"><label>Tipo de gasto</label></td>
                         <td width="85%"><select name="slTipoGasto" id="slTipoGasto">
                         </select></td>
                       </tr>
                       <tr>
-                        <td><p>Rubro gasto</p></td>
+                        <td><label>Rubro gasto</label></td>
                         <td><select name="slRubroGasto" id="select9">
                         </select></td>
                       </tr>
                       <tr>
-                        <td><p>Destino gasto</p></td>
+                        <td><label>Destino gasto</label></td>
                         <td><select name="slDestinoGasto" id="select10">
                         </select></td>
                       </tr>
@@ -199,19 +201,19 @@
                         	<table width="100%" border="0">
                               <tr>
                                 <td width="4%">*</td>
-                                <td width="27%"><p>Situación</p></td>
+                                <td width="27%"><label>Situación</label></td>
                                 <td width="69%"><select name="slSituacion" id="select11">
                                 </select></td>
                               </tr>
                               <tr>
                                 <td>*</td>
-                                <td><p>Ejecución</p></td>
+                                <td><label>Ejecución</label></td>
                                 <td><select name="slEjecucion" id="select12">
                                 </select></td>
                               </tr>
                               <tr>
                                 <td>*</td>
-                                <td><p>Obra/Acción</p></td>
+                                <td><label>Obra/Acción</label></td>
                                 <td><select name="slObraAccion" id="select13">
                                 </select></td>
                               </tr>
@@ -223,7 +225,7 @@
                         	<table width="100%" border="0">
                               <tr>
                                 <td width="5%">*</td>
-                                <td width="22%"><p>Anexo</p></td>
+                                <td width="22%"><label>Anexo</label></td>
                                 <td width="73%"><label>
                                   <input type="text" name="textfield2" id="textfield2" />
                                 </label></td>
@@ -240,7 +242,151 @@
                   </tr>
                 </table>
 			</div>
-        </div>
+            <div id="panel2" class="panelDatos">
+              <table width="100%" border="0">
+                <tr>
+                  <td><table width="100%" border="0">
+                        <tr>
+                          <td width="23%"><label>Número de obra o acción</label></td>
+                          <td width="77%">
+                            <input name="textfield3" type="text" id="textfield3" size="65" />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td><fieldset>
+                   	<legend>Dependencias</legend>
+                   	<table width="100%" border="0">
+                   	  <tr>
+                   	    <td width="12%"><label>Ejecutora</label></td>
+                   	    <td width="88%">
+                   	      <select name="select2" id="select2">
+               	          </select>
+               	          <input type="button" value="Ver Municipio - Dependencias" />
+                   	    </td>
+               	      </tr>
+                   	  <tr>
+                   	    <td><label>Normativa</label></td>
+                   	    <td><select name="select3" id="select3">
+               	        </select>
+               	        <input type="button" value="Ver Programas - Dependencias" /></td>
+               	      </tr>
+                   	  <tr>
+                   	    <td colspan="2">&nbsp;</td>
+               	      </tr>
+                   	  <tr>
+                   	    <td colspan="2">
+                        <fieldset>
+                       	  <legend>Validación Dependencia Normativa</legend>
+                            <table width="100%" cellpadding="0" cellspacing="0">
+                            	<tr>
+                                	<td width="10%"><label>Oficio</label></td>
+                                    <td width="90%"><input type="text" /></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                        </td>
+               	      </tr>
+                   	  <tr>
+                   	    <td colspan="2">&nbsp;</td>
+               	      </tr>
+                   	  <tr>
+                   	    <td colspan="2">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                        	<tr>
+                            	<td width="49%">
+                                	<fieldset>
+                                    	<legend>Fechas</legend>
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                        	<tr>
+                                            	<td width="3%"><label>*</label></td>
+                                                <td width="34%"><label>Inicio estimado</label></td>
+                                                <td width="63%"><input type="text" /></td>
+                                            </tr>
+                                            <tr>
+                                            	<td><label>*</label></td>
+                                                <td><label>Término estimado</label></td>
+                                                <td><input type="text" /></td>
+                                            </tr>
+                                            <tr>
+                                              <td>&nbsp;</td>
+                                              <td><label>Inicio físico real</label></td>
+                                              <td><input type="text" /></td>
+                                            </tr>
+                                            <tr>
+                                              <td>&nbsp;</td>
+                                              <td><label>Término físico real</label></td>
+                                              <td><input type="text" /></td>
+                                            </tr>
+                                            <tr>
+                                              <td>&nbsp;</td>
+                                              <td><label>Inicio finan. real</label></td>
+                                              <td><input type="text" /></td>
+                                            </tr>
+                                            <tr>
+                                              <td>&nbsp;</td>
+                                              <td><label>Término finan. real</label></td>
+                                              <td><input type="text" /></td>
+                                            </tr>
+                                            <tr>
+                                              <td><label>*</label></td>
+                                              <td><label>Fecha de registro</label></td>
+                                              <td><input type="text" /></td>
+                                            </tr>
+                                        </table>
+                                    </fieldset>
+                                </td>
+                                <td width="2%">&nbsp;</td>
+                                <td width="49%">
+                                	<fieldset>
+                                    	<legend>Beneficiarios y Jornales</legend>
+                                        <table width="100%" cellspacing="0" cellpadding="0">
+                                        	<tr>
+                                            	<td>
+                                                	<table width="100%" cellspacing="0" cellpadding="0">
+                                                		<tr>
+                                                            <td width="1%"><label>*</label></td>
+                                                            <td width="22%"><label>Beneficiarios</label></td>
+                                                            <td width="32%"><input type="text" /></td>
+                                                    	</tr>
+                                                    	<tr>
+                                                            <td><label>*</label></td>
+                                                            <td><label>Jornaleros</label></td>
+                                                            <td><input type="text" /></td>
+                                                   		</tr>
+                                                   	</table>
+                                              </td>
+                                              <td>
+                                              		<table width="100%" cellpadding="0" cellspacing="0">
+                                                    	<tr>
+                                                        	<td>
+                                                            	<textarea></textarea>	
+                                                            </td>	
+                                                        </tr>
+                                                    </table>
+                                              </td>
+                                            </tr>
+                                        </table>
+                                  </fieldset>
+                                </td>
+                            </tr>
+                        </table>
+                        </td>
+                      </tr>
+               	    </table>
+                  </fieldset></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+            </div>
+    </div>
     <!-- **********************************************  TERMINA CÓDIGO ************************************************* -->     
 </div>
 </form>
