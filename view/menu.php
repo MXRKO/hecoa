@@ -4,7 +4,7 @@
         	<ul>
             	<li><a href="../obras/techofinanciero.php">Techos Financieros</a></li>
                 <li><a href="../obras/capturaobra.php">Captura Obra/Acción</a></li>
-                <li><a href="#">Lista Obras/Acciones</a></li>
+                <li><a href="../obras/listadoobras.php">Lista Obras/Acciones</a></li>
             </ul>
         </li>
         <li <?=($menu_selected==1)?"class='hover'":"";?>><a href="#">Reportes</a>

@@ -27,7 +27,10 @@
 </div>
 <div class="content centrar">
 <!-- **********************************************  CÓDIGO ************************************************* -->     
-   		<h3>Techos Financieros</h3>
+    <div class="marco20">
+        <div class="marcoTitulo">
+        <h3>Techos Financieros</h3>
+        </div>
         <table width="100%" border="0">
           <tr>
             <td width="20%"><p class="der">Municipio</p></td>
@@ -225,7 +228,7 @@
           <tr>
             <td colspan="2">
             <fieldset>
-               	<legend>Techo Financiero F.A.F.M.R.               	</legend>
+               	<legend>Techo Financiero F.A.F.M.R.</legend>
                	<table width="100%" border="0">
               <tr>
                         <td>&nbsp;</td>
@@ -272,6 +275,7 @@
             </td>
           </tr>
         </table>
+    </div>
 <!-- **********************************************  TERMINA CÓDIGO ************************************************* -->     
 </div>
 </form>

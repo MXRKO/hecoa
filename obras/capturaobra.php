@@ -32,9 +32,9 @@
             <h3>Datos Generales de Obras y Acciones</h3>
             </div>
             <ul class="subopciones">
-                <li class="seleccionado"><a href="#">Paso 1 de 3</a></li>
-                <li><a href="#">Paso 2 de 3</a></li>	
-                <li><a href="#">Paso 3 de 3</a></li>	
+                <li class="seleccionado"><a id="alink1" href="#">Paso 1 de 3</a></li>
+                <li><a id="alink2" href="#">Paso 2 de 3</a></li>	
+                <li><a id="alink3" href="#">Paso 3 de 3</a></li>	
             </ul>
             <div class="clr"></div>
             <div id="panel1" class="panelDatos">
@@ -305,8 +305,8 @@
                                         <table width="100%" cellpadding="0" cellspacing="0">
                                         	<tr>
                                             	<td width="3%"><label>*</label></td>
-                                                <td width="34%"><label>Inicio estimado</label></td>
-                                                <td width="63%"><input type="text" /></td>
+                                                <td width="49%"><label>Inicio estimado</label></td>
+                                                <td width="48%"><input type="text" /></td>
                                             </tr>
                                             <tr>
                                             	<td><label>*</label></td>
@@ -347,28 +347,20 @@
                                     	<legend>Beneficiarios y Jornales</legend>
                                         <table width="100%" cellspacing="0" cellpadding="0">
                                         	<tr>
-                                            	<td>
-                                                	<table width="100%" cellspacing="0" cellpadding="0">
-                                                		<tr>
+                                            	<td><table width="100%" cellspacing="0" cellpadding="0">
+                                       		  <tr>
                                                             <td width="1%"><label>*</label></td>
                                                             <td width="22%"><label>Beneficiarios</label></td>
-                                                            <td width="32%"><input type="text" /></td>
+                                                            <td width="32%"><input type="text" size="15" /></td>
+                                                            <td width="32%"><input type="text" size="15" value="PERSONAS" /></td>
                                                     	</tr>
                                                     	<tr>
                                                             <td><label>*</label></td>
                                                             <td><label>Jornaleros</label></td>
-                                                            <td><input type="text" /></td>
+                                                            <td><input type="text" size="15" /></td>
+                                                            <td>&nbsp;</td>
                                                    		</tr>
                                                    	</table>
-                                              </td>
-                                              <td>
-                                              		<table width="100%" cellpadding="0" cellspacing="0">
-                                                    	<tr>
-                                                        	<td>
-                                                            	<textarea></textarea>	
-                                                            </td>	
-                                                        </tr>
-                                                    </table>
                                               </td>
                                             </tr>
                                         </table>
@@ -385,6 +377,49 @@
                   <td>&nbsp;</td>
                 </tr>
               </table>
+            </div>
+            <div id="panel3" class="panelDatos">
+            	<table width="100%" cellpadding="0" cellspacing="0">
+                	<tr>
+                    	<td>
+                        	<table width="100%" cellpadding="0" cellspacing="0">
+                            	<tr>
+                                	<td width="21%"><label>Número de obra o acción</label></td>
+                                    <td width="79%"><input type="text" /></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                    	<td>
+                        	<fieldset>
+                            	<legend>Croquis de la obra</legend>
+                                <table width="100%" cellpadding="0" cellspacing="0">
+                                	<tr>
+                                    	<td><input type="button" id="btGuardaImagenes" value="Guardar"/></td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                      <td>&nbsp;</td>
+                                      <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                    	<td><input type="file" lang="es"/></td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                      <td>&nbsp;</td>
+                                      <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                    	<td><label>Imagen guardada :</label></td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </td>
+                    </tr>
+                </table>
             </div>
     </div>
     <!-- **********************************************  TERMINA CÓDIGO ************************************************* -->     

@@ -271,3 +271,35 @@ table.normal tr td{
 table.normal tr td p{
 	font-size:14px;
 }
+
+.panelDefault{
+	padding:25px 20px;
+	border:1px #999 solid;
+}
+
+/**** CSS PARA TABLAS DEFAULT ***/
+
+table.datos thead tr th{
+	padding:5px 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	cursor:pointer;
+	font-weight:bold;
+}
+table.datos tbody tr td{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding:4px;
+}
+
+table.datos tbody{
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+}
+
+.dataTables_length > label, .dataTables_filter > label, .dataTables_info, .dataTables_paginate{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+/**** TERMINA CSS PARA TABLAS DEFAULT ***/
