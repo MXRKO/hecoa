@@ -282,13 +282,13 @@ table.normal tr td p{
 table.datos thead tr th{
 	padding:5px 0;
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:14px;
+	font-size:13px;
 	cursor:pointer;
 	font-weight:bold;
 }
 table.datos tbody tr td{
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:13px;
+	font-size:12px;
 	padding:4px;
 }
 
@@ -299,7 +299,7 @@ table.datos tbody{
 
 .dataTables_length > label, .dataTables_filter > label, .dataTables_info, .dataTables_paginate{
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:14px;
+	font-size:13px;
 }
 
 /**** TERMINA CSS PARA TABLAS DEFAULT ***/

@@ -17,7 +17,7 @@
         </li>
         <li <?=($menu_selected==2)?"class='hover'":"";?> ><a href="#">Catálogos</a>
         	<ul>
-            	<li><a href="#">Conceptos</a></li>
+            	<li><a href="../catalogos/conceptos.php">Conceptos</a></li>
                 <li><a href="#">Consejos</a></li>
                 <li><a href="#">Contratistas</a></li>
                 <li><a href="#">Dependencias</a></li>

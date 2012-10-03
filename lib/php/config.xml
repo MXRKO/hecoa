@@ -2,12 +2,12 @@
 <general>	
 	<server_db>
 		<location>localhost</location>
-		<db>datos_2</db>
+		<db>datos</db>
 		<user>root</user>
 		<password>root</password>
 	</server_db>
 	<system>
 		<location>localhost</location>
-		<name>SISCOPHP</name>
+		<name>HECOA</name>
 	</system>
 </general>

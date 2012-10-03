@@ -21,7 +21,7 @@ if(trim($_POST["txtUsuario"]) != "" && trim($_POST["txtContrasena"]) != "")
 	if($row = mysql_fetch_array($result))
 	{
 		if($row["ROL"]=="ADMIN"){
-			$liga="admin/techofinanciero.php";
+			$liga="obras/capturaobra.php";
 		}
 		else{
 			$liga="manage/clientes.php";	
