@@ -3,6 +3,7 @@
 	include("../lib/php/settings.php");
 	include("../lib/php/conexion.php");
 	$menu_selected=2;
+	$catalogo_padre="conceptos.php";
     $titulo_pagina="Catálogo de Conceptos";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
