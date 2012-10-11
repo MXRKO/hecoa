@@ -302,4 +302,18 @@ table.datos tbody{
 	font-size:13px;
 }
 
+.pt20p{
+	padding-top:20px;
+}
+
+.mb20p{
+	margin-bottom:20px;
+}
+
+
+#footer{
+	background:#666;
+	padding:20px;
+}
+
 /**** TERMINA CSS PARA TABLAS DEFAULT ***/

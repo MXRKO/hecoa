@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	$("#panel2").hide();
 	$("input[type=text]").each(function(){
 		$(this).val("0.00");
 		$(this).css({"text-align":"right"});
@@ -14,5 +15,22 @@ $(document).ready(function(){
 	});
 	
 	$("#btGuardarFISM").click(function(){								   
+	});
+	
+	$("a#alink1").click(function(e){
+		e.preventDefault();
+		e.stopPropagation();
+		$("#panel1").show();
+		$("#panel2").hide();
+		$("ul.subopciones li:eq(0)").addClass("seleccionado");
+		$("ul.subopciones li:eq(1)").removeClass("seleccionado");
+	});
+	$("a#alink2").click(function(e){
+		e.preventDefault();
+		e.stopPropagation();
+		$("#panel1").hide();
+		$("#panel2").show();								
+		$("ul.subopciones li:eq(0)").removeClass("seleccionado");
+		$("ul.subopciones li:eq(1)").addClass("seleccionado");
 	});
 });
